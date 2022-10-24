@@ -13,9 +13,9 @@ def linkedList1():
     linkedList1.append(node2)
     linkedList1.append(node3)
     linkedList1.append(node4)
-    delete=linkedList1.delete(5)
+    delete_node = delete(linkedList1.get(5))
 
-    return delete
+    return delete_node
 
 @pytest.fixture
 def linkedList2():
@@ -28,18 +28,17 @@ def linkedList2():
     linkedList2.append(node2)
     linkedList2.append(node3)
     linkedList2.append(node4)
-    delete=linkedList2.delete(1)
+    delete_node=delete(linkedList2.get(1))
 
-    return delete
+    return delete_node
 
 
 
-def test_delete_5(linkedList1):
+def test_delete_1(linkedList1):
     actual = linkedList1
     expected = None
     assert actual == expected
-
-
+    
 def test_delete_1(linkedList2):
     actual = linkedList2
     expected = None
