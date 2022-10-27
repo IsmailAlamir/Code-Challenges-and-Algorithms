@@ -44,6 +44,25 @@ def linkedList3():
     linkedList3.Remove_nth_Node(1)
     return linkedList3.__str__()
 
+@pytest.fixture
+def linkedList4():
+
+    linkedList4 = LinkedList()
+    node1 = Node(1)
+    node2 = Node(2)
+    node3 = Node(3)
+    node4 = Node(4)
+
+    linkedList4.append(node1)
+    linkedList4.append(node2)
+    linkedList4.append(node3)
+    linkedList4.append(node4)
+    
+
+    linkedList4.Remove_nth_Node(4)
+    return linkedList4.__str__()
+
+
 
 
 def test_Remove_nth_Node_middle(linkedList1):
@@ -60,4 +79,10 @@ def test_Remove_nth_Node_one_node(linkedList2):
 def test_Remove_nth_Node_end(linkedList3):
     actual = linkedList3
     expected ='1 --> none'
+    assert actual == expected
+
+
+def test_Remove_4nth_Node(linkedList4):
+    actual = linkedList4
+    expected ='2 --> 3 --> 4 --> none'
     assert actual == expected
