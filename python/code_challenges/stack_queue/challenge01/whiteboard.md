@@ -11,7 +11,7 @@ Implement the MyQueue class:
 - **empty()** Returns true if the queue is empty, false otherwise.
 
 ### [Pull Requests](https://github.com/IsmailAlamir/Code-Challenges-and-Algorithms/pull/7)
-##whiteboard
+## whiteboard
 ![whiteboard](whiteboard.jpg)
 
 ### difficulties I have had with the assignment:
