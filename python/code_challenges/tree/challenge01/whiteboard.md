@@ -4,7 +4,7 @@ Given two integer arrays preorder and inorder where preorder is the preorder tra
 
 
 
-### [Pull Requests]()
+### [Pull Requests](https://github.com/IsmailAlamir/Code-Challenges-and-Algorithms/pull/9)
 
 ## whiteboard
 ![whiteboard](whiteboard.jpg)
