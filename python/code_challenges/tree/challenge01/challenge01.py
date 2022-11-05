@@ -40,7 +40,3 @@ class Tree:
         return root
 
 
-
-tree2=Tree()
-root=tree2.Construct_Tree([1,2,3,4,5,6],[6,4,3,2,1])
-print( tree2.__str__(root))
