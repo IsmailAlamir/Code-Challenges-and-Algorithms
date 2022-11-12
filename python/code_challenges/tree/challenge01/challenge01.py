@@ -38,5 +38,3 @@ class Tree:
         root.right=self.Construct_Tree(preorder[mid+1:],inorder[mid+1:])
 
         return root
-
-
