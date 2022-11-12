@@ -38,19 +38,3 @@ class Tree:
         root.right=self.Construct_Tree(preorder[mid+1:],inorder[mid+1:])
 
         return root
-
-def pre_order(root):
-    if root is not None:
-        print(root.value)
-    if root.left is not None:
-        pre_order(root.left)
-    if root.right is not None:
-        pre_order(root.right)
-
-def in_order(root):
-    if root.left is not None:
-        in_order(root.left)
-    if root is not None:
-        print(root.value)
-    if root.right is not None:
-        in_order(root.right)
