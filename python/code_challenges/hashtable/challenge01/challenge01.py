@@ -29,14 +29,13 @@ def two_sum_bst(root, k):
     # two_sum_bst is a function that takes a Binary Search tree and an integer as a parameter (k). 
     # and it return True if Binary search tree has two elements that their summation is the given integer.
    
-    values = set()
+    values = {}
     def Target(root):
         if not root:
             return False
-        if k - root.value in values:
+        if root.value in values:
             return True
-        values.add(root.value)
+        values[k - root.value] = True
         return Target(root.left) or Target(root.right)
     return Target(root)
-
 
