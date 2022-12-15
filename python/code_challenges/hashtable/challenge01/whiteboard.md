@@ -6,7 +6,7 @@ Write a function that takes a Binary Search tree and an integer as a parameter. 
 
 
 
-### [Pull Requests](https://github.com/IsmailAlamir/Code-Challenges-and-Algorithms/pull/12)
+### [Pull Requests](https://github.com/IsmailAlamir/Code-Challenges-and-Algorithms/pull/13)
 
 ## whiteboard
 ![whiteboard](whiteboard.jpg)
