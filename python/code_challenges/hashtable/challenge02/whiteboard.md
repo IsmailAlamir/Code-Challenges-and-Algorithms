@@ -5,7 +5,7 @@ Write a function that will take a string as a parameter and return the first rep
 
 
 
-### [Pull Requests](https://github.com/IsmailAlamir/Code-Challenges-and-Algorithms/pull/13)
+### [Pull Requests](https://github.com/IsmailAlamir/Code-Challenges-and-Algorithms/pull/14)
 
 ## whiteboard
 ![whiteboard](whiteboard.jpg)
