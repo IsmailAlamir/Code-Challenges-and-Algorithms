@@ -7,7 +7,7 @@ Extend your graph class and add a method that take a value as a parameter, then 
 
 
 
-### [Pull Requests](https://github.com/IsmailAlamir/Code-Challenges-and-Algorithms/pull/14)
+### [Pull Requests](https://github.com/IsmailAlamir/Code-Challenges-and-Algorithms/pull/15)
 
 ## whiteboard
 ![whiteboard](whiteboard.jpg)
